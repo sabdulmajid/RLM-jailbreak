@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+.venv/
+
+# Generated artifacts
+artifacts/results/*
+artifacts/logs/*
+artifacts/data/*
+
+# Generated outputs in legacy folders
+rlm_experiment/results_v2/**
+rlm_experiment/results_v2_exposure/**
+rlm_experiment/results_v2_hijack/**
+rlm_experiment/results_v2_no_force/**
+rlm_experiment/*.log
+rlm_experiment/*.jsonl
+
+# Keep directory structure
+!artifacts/results/.gitkeep
+!artifacts/logs/.gitkeep
+!artifacts/data/.gitkeep
+
+# Misc
+*.log
+*.out
+*.err
+.DS_Store
